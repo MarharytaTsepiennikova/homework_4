@@ -4,6 +4,7 @@ import java.util.Scanner;
 /**
  * Написать игру "Крестики нолики"? используя двухмерные массивы
  */
+
 public class Homework4_5 {
     public static void main(String[] args) {
         String[][] list = {{"*", "*", "*"} , {"*", "*", "*"}, {"*", "*", "*"}};
@@ -35,12 +36,26 @@ public class Homework4_5 {
                     count--;
                 }
             }
+            gameCheck(list);
         }
     }
     static void draw(String[][] list){
         for (int i = 0; i < list.length; i++) {
                 System.out.println(Arrays.toString(list[i]));
         }
+    }
+
+    static void gameCheck(String[][] list){
+        for (int i = 0; i < list.length; i++) {
+            if (list[i].equals(list[])) ; {
+                gameOver();
+            }
+        }
+    }
+
+    static void gameOver(){
+        System.out.println("Game over!");
+        return;
     }
 
 }
