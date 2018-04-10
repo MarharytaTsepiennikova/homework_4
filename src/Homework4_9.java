@@ -8,14 +8,13 @@ public class Homework4_9 {
     public static void main(String[] args) {
 
         int[] list = {1, 2, 3, 4};
-        int var = list[0];
-        int n = list.length;
-        for (int i = 0; i < list.length; i++) {
-            list[i] = list[--n];
+        int elements = list.length;
+
+        for (int number = 0; number < list.length/2; number++) {
+            int var = list[number];
+            list[number] = list[--elements];
+            list[elements] = var;
         }
-        list[list.length-1] = var;
-
         System.out.println(Arrays.toString(list));
-
     }
 }

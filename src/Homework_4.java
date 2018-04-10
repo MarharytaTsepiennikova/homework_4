@@ -7,10 +7,10 @@ public class Homework_4 {
     public static void main(String[] args) {
 	int[] x = new int[28];
 
-        for (int i = 0; i < x.length; i++) {
-            x[i] = i * 635;
-            if(i == 0 || i == 14 || i == 27){
-                System.out.println(x[i]);
+        for (int element = 0; element < x.length; element++) {
+            x[element] = element * 635;
+            if(element == 0 || element == 14 || element == 27){
+                System.out.println(x[element]);
             }
         }
     }

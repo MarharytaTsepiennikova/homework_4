@@ -7,12 +7,12 @@ public class Homework4_6 {
         int[] list = {43, 89, -23, 22, -43, 12, 9, 0};
         int min = 0, max = 0;
 
-        for (int i = 0; i < list.length-1; i++) {
-            if (list[i] > max){
-                max = list[i];
+        for (int elements = 0; elements < list.length-1; elements++) {
+            if (list[elements] > max){
+                max = list[elements];
             }
-            if (list[i] < min){
-                min = list[i];
+            if (list[elements] < min){
+                min = list[elements];
             }
         }
         System.out.println(max);
