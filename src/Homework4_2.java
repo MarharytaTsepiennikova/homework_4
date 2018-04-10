@@ -4,9 +4,9 @@
 
 public class Homework4_2 {
     public static void main(String[] args) {
-        for (int i = 0; i < 101; i++) {
-            if ((i%3 == 0)){
-                System.out.println(i);
+        for (int numbers = 0; numbers < 101; numbers++) {
+            if ((numbers%3 == 0)){
+                System.out.println(numbers);
             }
             
         }
