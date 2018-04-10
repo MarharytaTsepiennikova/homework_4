@@ -47,14 +47,12 @@ public class Homework4_5 {
 
     static void gameCheck(String[][] list){
         for (int i = 0; i < list.length; i++) {
-            if (list[i].equals(list[])) ; {
-                gameOver();
-            }
+
         }
     }
 
     static void gameOver(){
-        System.out.println("Game over!");
+
         return;
     }
 
